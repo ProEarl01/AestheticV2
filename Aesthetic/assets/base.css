@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+	font-family: 'Comfortaa', cursive;
+	color: #F6546A;  // bija #fff
+	text-shadow: 2px 2px #ff0000;
+	background: #000;
+	text-align: center;
+}
+
+#header {
+	font-size: 150px;
+	color: #F6546A; // bija #eb4d4b
+	font-weight: bold;4
+}
+
+#alt {
+	font-size: 20px;
+}
+
+a, a:visited {
+	font-size: 30px;
+	color: #F6546A; // bija  #fff
+	text-decoration: none;
+}
+
+video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 50%;
+	min-height: 50%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+}
+
+iframe {
+	width: 0px;
+	height: 0px;
+}
